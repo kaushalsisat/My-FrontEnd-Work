@@ -1,0 +1,68 @@
+body h1,h2,label,select,input,button{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1{
+    font-size: 36px;
+}
+main{
+    padding: 40px;
+    text-align: center;
+}
+.appoitment{
+      background-color: white;
+      padding: 20px;
+      border: 1 px solid black;
+      border-radius: 3px;
+      display: inline-block;
+      text-align: left;
+      box-shadow: 0px 0px 5px rgb(0, 0, 0,0.2);
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+select,input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius:3px;
+}
+button{
+     background-color: blue;
+     color: #ffffff;
+     padding: 10px  20px;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+}
+footer{
+    background-color: rgb(96, 202, 202);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#one{
+   color: red;
+}
+#two{
+  color: green;
+}
+#three{
+    color: rgb(5, 150, 179);
+}
