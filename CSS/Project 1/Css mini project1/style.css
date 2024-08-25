@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   margin: 0.5rem;
+   font-family: sans-serif;
+   text-align: center;
+}
+nav{
+  border: 2px solid  black;
+  max-width: 600px;
+  margin: 0 auto 1rem ;
+  line-height:6rem ;
+  border-radius: 3rem;
+  font-size: 2rem;
+  
+}
+h2{
+    background-color: yellow;
+    border-radius: 3rem 3rem 0  0;
+    padding: 1rem;
+}
+ul{
+    list-style: none;
+}
+li{
+    border-top: 2px solid black;
+}
+li,a{
+    display: block;
+}
+li a, li a:visited{
+    text-decoration: none;
+    color:rgb(23, 54, 4);
+}
+li a:hover,li a:focus{
+    background-color: blue;
+    color: white;
+}
+li:last-child a{
+    border-radius: 0 0 3rem 3rem;
+}
