@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5: Event Handling
+        Create a button that changes the text content of a <p> element when clicked.
+    </title>
+</head>
+<body>
+ <p id="para">Hello Javascript</p>
+ <button onclick="clickPlz()">Click Me</button>
+<script>
+     function clickPlz() {
+     var c = document.getElementById("para");
+        if(c.innerHTML == "Hello"){
+           c.innerHTML = "Text change!";
+        } else {
+           c.innerHTML = "Hello";
+        }
+     }
+</script>
+    
+</body>
+</html>
