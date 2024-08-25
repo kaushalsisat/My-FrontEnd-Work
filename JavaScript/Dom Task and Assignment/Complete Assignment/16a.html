@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16.Check given date is valid date or not? </title>
+</head>
+<body>
+
+   <script>
+    const date = new Date("2013/2/30");
+
+  Date.prototype.isValid = function () {
+
+	// If the date object is invalid it
+	// will return 'NaN' on getTime()
+	// and NaN is never equal to itself
+	return this.getTime() === this.getTime();
+ };
+
+ function isValidateDate() {
+	console.log(date.isValid());
+ }
+
+ isValidateDate(3);
+ 
+  </script>
+</body>
+</html>
