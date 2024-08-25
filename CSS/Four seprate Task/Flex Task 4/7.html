@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> flex container 4</title>
+    <style>
+    .full{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 380px;
+    width: 50%;
+    gap: 10px;
+    }
+    .container{
+    border: solid rgb(118, 114, 114) 2px;
+    height: 438px;
+    width: 200px;
+    }
+    .firstt{
+       margin: -5px 5px;
+    }
+    #t1{
+        margin-left:5px ;
+    }
+
+    /* second Container */
+    .container2{
+    border: solid rgb(118, 114, 114) 2px;
+    height: 438px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    }
+    .firstt2{
+       margin: -5px 5px;
+    }
+    #t2{
+        margin-left:5px ;
+    }
+
+    footer{
+        background-color: rgb(44, 37, 37);
+        color: azure;
+        justify-self: end;
+        position: absolute;
+        top: 90%;
+        width: 97%;
+        height: 33px;
+        padding-left: 7px;
+        padding-top: 11px;
+    }
+    .first3{
+        margin: 5px;
+    }
+
+
+    </style>
+</head>
+<body>  
+    <div class="full">
+
+         <div class="container">
+         <div class="firstt"><h2>A Short Heading</h2>
+         </div>
+         <div> <img src="Images/fleximag.jpeg.jpg" style="width:200px; height:140px;">
+         </div>
+         <div><p id="t1">Lorem Ipsum is simply the dummy text of the
+                  printing and typesetting industry lorem Ipsum is simply the dummy text printing.
+              </p>
+         </div>
+         </div>
+
+         
+         <div class="container2">
+         <div class="firstt2"><h2>A Short Heading</h2>
+         </div>
+         <div> <img src="Images/fleximag.jpeg.jpg" style="width:200px; height:140px;"> 
+         </div>
+         <div><p id="t2">Lorem Ipsum  
+              </p>
+         </div>
+         <footer>i have a footer!</footer>
+         </div>
+
+         <div class="container2">
+         <div class="first3"><h2>A Longer Heading in this card</h2>
+         </div>
+         <div> <img src="Images/fleximag.jpeg.jpg" style="width:200px; height:140px;"> 
+         </div>
+         <div><p id="t2">Lorem Ipsum is simply the dummy text of the
+            printing and typesetting industry lorem Ipsum is simply the dummy text printing 
+                 </p>
+         </div>
+         <footer>i have a footer!</footer>
+         </div>
+
+         <div class="container">
+         <div class="firstt"><h2>A Short Heading</h2>
+         </div>
+         <div> <img src="Images/fleximag.jpeg.jpg" style="width:200px; height:140px;">
+         </div>
+         <div><p id="t1">Lorem Ipsum is simply the dummy text of the
+                     printing and typesetting industry lorem Ipsum is simply the dummy text printing.
+                </p>
+         </div>
+         </div>
+    </div>
+</body>
+</html>

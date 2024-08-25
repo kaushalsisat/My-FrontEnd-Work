@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flex propert 8</title>
+    <style>body{margin: 2px; padding: 0%;}
+    .containner{
+    background-color: rgb(21, 36, 61);
+    display: flex; 
+    height: 300px;
+    width: 100%;     
+    }
+    .secondc{
+        background-color: aquamarine;
+        width: 800px;
+        margin-left: 50px;
+        margin-top: 14px;
+        height: 270px;
+    }
+    .thirdc{
+        background-color: rgb(245, 204, 189);
+        height:270px;
+        margin-left: 80px;
+        margin-top: 14px;
+        display: flex;
+        width: 300px;
+        flex-wrap: wrap;
+        
+    }
+    .banner1{
+        background-color: rgb(141, 219, 247);
+        width: 260px;
+        height: 80px;
+        
+    }
+    .banner2{
+        background-color: rgb(141, 219, 247);
+        width: 260px;
+        height: 80px;
+        margin-bottom: 140px;
+    }
+
+    </style>
+</head>
+<body>
+<div class="containner">
+      <div class="secondc">Left Container</div>
+      <div class="thirdc"><div class="banner1">banner 1</div><div class="banner2">banner 2</div></div>
+</div>
+</body>
+</html>
