@@ -1,0 +1,112 @@
+
+
+    2. Write a function that checks if a given number is positive, negative, or zero
+
+   <script>
+
+          let number =  prompt("enter the number")
+         
+          if(number > 0 ){
+             console.log("this is a positive number")
+          }
+          else if(number == 0){
+            console.log("this is a zero")      
+          }
+          else{
+            console.log("this is a negative number") 
+          }
+        
+
+    </script>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 4.Remove leading and trailing whitespaces from a string and find before and after 
+length of the given string.
+             
+     <script>
+
+       let name ="         My Name Is Kauashal           ";  
+             console.log(name.trim());
+             console.log(name.length);
+    </script>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11. Select by ID
+Select the element with the ID "my Element" and change its text content to "I was 
+selected by ID."
+
+<body>  
+      <p id="myElement"> Select the element with the ID "my Element" and change its text content</p>
+      
+      <script>
+         let changeText =  document.getElementById("myElement").innerHTML="I was selected by ID"
+     </script>
+</body>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10.Add a New Element
+Create a new <p> element with the text "This is a new paragraph." and append it to 
+a <div> element with the id "container".
+
+<body>  
+    <p id="myElement"> This is a new paragraph</p>
+        <div id="container"> append it to div element with the id "container"</div>
+    
+    <script>
+         let changeText =  document.getElementById("container").innerHTML="Add a New Element";
+    </script>
+</body>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8.How do you remove a specific element from an array?
+
+
+
+     <script>
+            
+             let names = ["kaushal","kaushal1","kaushal2","kaushal3"];
+                 
+              let p = names.pop()
+              console.log(names);
+                 
+    </script>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5.create a person object, Access and print the "name" and "age" properties of the 
+"person" object.
+
+    <script>
+       const person = {
+
+             name:"kaushal",
+             age:21
+            }
+       console.log(person);
+   <script>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9. How do you check if an array contains a specific value?
+
+        let names = ["kaushal","kaushal1","kaushal2","kaushal3"];
+   
+                 console.log(names.length);
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.Extract a portion of a string using the substring method
+
+         let str = "Hello JavaScript";
+        let substr = str.substring(6, 15);
+        console.log(substr);
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6.Create an object with properties representing the days of the week. Write a loop
+to iterate through these properties and print their values.
+
+let daysofWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+for (let i = 0; i < daysofWeek.length; i++) {
+  console.log(daysofWeek[i]);
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
